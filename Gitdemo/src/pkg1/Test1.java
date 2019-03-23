@@ -13,7 +13,7 @@ public class Test1 {
 
 		 
 		 System.out.println("added 22");
-
+		 System.out.println("added 33");
 		 
 	        Map<Character, Integer> dupMap = new HashMap<Character, Integer>(); 
 	        char[] chrs = str.toCharArray();
