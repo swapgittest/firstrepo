@@ -9,6 +9,7 @@ public class Test1 {
 
 	 public void findDuplicateChars(String str){
          
+		 System.out.println("added");
 	        Map<Character, Integer> dupMap = new HashMap<Character, Integer>(); 
 	        char[] chrs = str.toCharArray();
 	        for(Character ch:chrs){
