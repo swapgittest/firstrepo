@@ -10,6 +10,11 @@ public class Test1 {
 	 public void findDuplicateChars(String str){
          
 		 System.out.println("added");
+
+		 
+		 System.out.println("added 22");
+
+		 
 	        Map<Character, Integer> dupMap = new HashMap<Character, Integer>(); 
 	        char[] chrs = str.toCharArray();
 	        for(Character ch:chrs){
