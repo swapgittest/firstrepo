@@ -14,6 +14,7 @@ public class Test1 {
 		 
 		 System.out.println("added 22");
 		 System.out.println("added 33");
+		 System.out.println("added 44");
 		 
 	        Map<Character, Integer> dupMap = new HashMap<Character, Integer>(); 
 	        char[] chrs = str.toCharArray();
@@ -35,6 +36,11 @@ public class Test1 {
 	
 	public static void main(String[] args) {
 
+		
+		int b=0;
+		int a=10;
+		
+		a =b;
 		Test1 dcs = new Test1();
         dcs.findDuplicateChars("AABB BBAA ABAB");
 	   }
